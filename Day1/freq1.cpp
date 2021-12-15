@@ -8,7 +8,10 @@ int freq[10]={0,0,0,0,0,0,0,0,0,0};
 
 cout<<"Enter Num: ";
 cin>>num;
+
 int rem=0;
+
+int arr[10];
 	while(num!=0){
 
 		rem=num%10;	
@@ -18,8 +21,11 @@ int rem=0;
 		num=num/10;
 	}
 
+
 	for(int i=0;i<10;i++){
-		cout<<"frequency of "<<i<<"is:"<<freq[i]<<endl;
+		int cnt=freq[i];
+		if(cnt!=0) 
+		cout<<"frequency of "<<i<<" is : "<<freq[i]<<endl;
 	}
 
 return 0;
