@@ -1,0 +1,13 @@
+a. write a function that accepts an array of strings.return the longest string.
+
+b. Find the most used character in a string (character with the largest occurence).
+
+c. Check for balanced brackets in a mathematical expression.
+
+d. Reverse a Linked list.
+
+e. Remove kth node from linked list.
+
+f. Check whether a given linked list is a circular Linked list.
+
+g. check whether a given a Linked list has cycles.
